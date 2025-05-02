@@ -1,0 +1,86 @@
+/* تنسيق عام للصفحة */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f5f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* الحاوية الرئيسية */
+  .container {
+    width:100%;
+   max-width:736px;
+   margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  /* تنسيق الصورة */
+  header img  {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* العناوين */
+  h2, h3, h4 {
+    color: #7a4e2c;
+    margin-top: 20px;
+  }
+  
+  /* القوائم */
+  ul, ol {
+    padding-left: 20px;
+  }
+  
+  ul li, ol li {
+    margin-bottom: 10px;
+  }
+  
+  /* الخط العازل */
+  hr {
+    border: 1px solid #eee;
+    margin: 30px 0;
+  }
+  
+  /* الجدول */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f0e6dd;
+    font-weight: bold;
+  }
+  
+  /* النقاط المهمة */
+  strong {
+    color: #5a3520;
+  }
+  
+  /* تحسين التوافق مع الشاشات الصغيرة */
+  @media (max-width: 600px) {
+    body {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    table th, table td {
+      font-size: 14px;
+    }
+  }
+  
